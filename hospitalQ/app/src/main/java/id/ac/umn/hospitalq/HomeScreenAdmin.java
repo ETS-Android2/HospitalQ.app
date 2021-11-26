@@ -27,8 +27,10 @@ public class HomeScreenAdmin  extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View view) {
-                Intent intentRegisterUser = new Intent(HomeScreenAdmin.this, RegisterUser.class);
-                startActivity(intentRegisterUser);
+                Intent intentListDepartement = new Intent(HomeScreenAdmin.this, ListDepartement.class);
+                intentListDepartement.putExtra("email", email);
+                intentListDepartement.putExtra("password", password);
+                startActivity(intentListDepartement);
             }
         });
 

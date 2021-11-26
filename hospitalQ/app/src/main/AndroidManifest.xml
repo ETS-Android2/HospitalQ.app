@@ -43,6 +43,12 @@
             android:name=".RegisterDoctor"
             android:exported="true" />
         <activity
+            android:name=".RegisterDepartement"
+            android:exported="true" />
+        <activity
+            android:name=".ListDepartement"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

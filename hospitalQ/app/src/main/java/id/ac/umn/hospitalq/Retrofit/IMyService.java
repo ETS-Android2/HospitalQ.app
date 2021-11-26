@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import id.ac.umn.hospitalq.AntrianData;
 import id.ac.umn.hospitalq.BookingData;
+import id.ac.umn.hospitalq.DepartementData;
 import id.ac.umn.hospitalq.DoctorData;
 import io.reactivex.Observable;
 import retrofit2.Call;
@@ -83,8 +84,8 @@ public interface IMyService {
                                    @Field("password") String password);
     @POST("getdepartement")
     @FormUrlEncoded
-    Observable<String> getDepartement(@Field("email") String email,
-                                        @Field("password") String password);
+    Call<ArrayList<DepartementData>> getDepartement(@Field("email") String email,
+                                                    @Field("password") String password);
     @POST("addantrian")
     @FormUrlEncoded
     Observable<String> addAntrian(@Field("user_name") String user_name,
