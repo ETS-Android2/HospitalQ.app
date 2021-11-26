@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_dokterbooking.xml" value="0.25" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_homescreenadmin.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_homescreendokter.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_homescreenpasien.xml" value="0.22" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_listantrianalluser.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_listbooking.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_listdokter.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_listdokteradmin.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_register.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_registerdokter.xml" value="0.33" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_antrian.xml" value="0.25" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_booking.xml" value="0.33" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_dokter.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_dokter_admin.xml" value="0.21240942028985507" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
