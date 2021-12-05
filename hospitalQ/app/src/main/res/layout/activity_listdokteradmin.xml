@@ -14,11 +14,11 @@
         android:layout_height="482dp" />
     <Button
         android:id="@+id/btn_registerdokter"
-        android:layout_width="320dp"
+        android:layout_width="340dp"
         android:layout_height="50dp"
         android:text="@string/Register"
         android:textColor="@color/white"
         android:textSize="15sp"
-        android:background="@color/blue"
+        android:background="@drawable/rounded_button"
         android:layout_gravity="center"/>
 </LinearLayout>
