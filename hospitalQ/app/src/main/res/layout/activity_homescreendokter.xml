@@ -2,16 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_3"
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="130dp"
+        android:text="Doctor Page"
+        android:textColor="@color/blue2"
+        android:textAlignment="center"
         android:layout_marginTop="10dp"
-        android:text="@string/dokter_page"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp" />
 
     <Button
         android:id="@+id/btn_antrianlistdokter"
@@ -21,7 +23,8 @@
         android:text="@string/antrian"
         android:textColor="@color/white"
         android:textSize="15sp"
-        android:background="@color/blue"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="sans-serif-black"
         android:layout_marginBottom="30dp"
         android:layout_gravity="center"/>
     <Button
@@ -32,7 +35,8 @@
         android:text="@string/change_profile"
         android:textColor="@color/white"
         android:textSize="15sp"
-        android:background="@color/blue"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="sans-serif-black"
         android:layout_marginBottom="30dp"
         android:layout_gravity="center"/>
 </LinearLayout>

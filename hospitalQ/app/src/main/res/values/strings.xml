@@ -14,7 +14,7 @@
     <string name="antrian_list">Antrian List</string>
     <string name="booking_list">Booking List</string>
     <string name="Register">Register</string>
-    <string name="password">password</string>
+    <string name="password">Password</string>
     <string name="alamat">Alamat</string>
     <string name="tahun">Tahun</string>
     <string name="bulan">Bulan</string>
@@ -26,4 +26,7 @@
     <string name="total_antrian">Total Antrian</string>
     <string name="nama">Nama</string>
     <string name="booking_dokter">Booking dokter</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register!</string>
+    <string name="already_have_an_account_login">Already have an account? Login!</string>
+    <string name="home_page">Home Page</string>
 </resources>
