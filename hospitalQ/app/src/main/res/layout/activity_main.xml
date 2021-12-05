@@ -13,12 +13,14 @@
         android:layout_margin="16dp"
         android:padding="16dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
         <EditText
             android:id="@+id/edt_login_email"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:layout_marginTop="150dp"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -29,7 +31,8 @@
             android:id="@+id/edt_login_password"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:layout_marginTop="20dp"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -39,22 +42,23 @@
             android:layout_gravity="center"/>
         <Button
             android:id="@+id/btn_login"
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Login"
+            android:layout_marginTop="20dp"
+            android:text="@string/login"
             android:textColor="@color/white"
-            android:textSize="15dp"
-            android:background="@color/black"
+            android:textSize="15sp"
+            android:background="@color/blue"
             android:layout_marginBottom="30dp"
             android:layout_gravity="center"/>
         <Button
             android:id="@+id/btn_toregister"
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Register"
+            android:text="@string/Register"
             android:textColor="@color/white"
-            android:textSize="15dp"
-            android:background="@color/black"
+            android:textSize="15sp"
+            android:background="@color/blue"
             android:layout_marginBottom="30dp"
             android:layout_gravity="center"/>
     </LinearLayout>
