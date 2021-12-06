@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">hospitalQ</string>
+    <string name="departement">Departement</string>
+    <string name="antrian_sekarang">Antrian Sekarang</string>
+    <string name="tunggu_sebentar">Tunggu Sebentar</string>
+    <string name="jumlah_antrian">Jumlah Antrian</string>
+    <string name="next">Next</string>
+    <string name="reset">Reset</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="antrian">Antrian</string>
+    <string name="dokter_page">Dokter Page</string>
+    <string name="pasien_page">Pasien Page</string>
+    <string name="doktor_list">Doktor List</string>
+    <string name="antrian_list">Antrian List</string>
+    <string name="booking_list">Booking List</string>
+    <string name="Register">Register</string>
+    <string name="password">Password</string>
+    <string name="alamat">Alamat</string>
+    <string name="tahun">Tahun</string>
+    <string name="bulan">Bulan</string>
+    <string name="hari">Hari</string>
+    <string name="lastname">Lastname</string>
+    <string name="firstname">Firstname</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="total_antrian">Total Antrian</string>
+    <string name="nama">Nama</string>
+    <string name="booking_dokter">Booking dokter</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register!</string>
+    <string name="already_have_an_account_login">Already have an account? Login!</string>
+    <string name="home_page">Home Page</string>
 </resources>
