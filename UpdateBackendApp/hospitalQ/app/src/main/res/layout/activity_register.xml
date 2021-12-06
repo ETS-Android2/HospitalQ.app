@@ -56,7 +56,7 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/Birthday"
             app:layout_constraintEnd_toStartOf="@+id/edt_register_lastname"
-            app:layout_constraintHorizontal_bias="0.677"
+            app:layout_constraintHorizontal_bias="0.661"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edt_register_password"
             app:layout_constraintVertical_bias="0.0" />
@@ -64,10 +64,9 @@
         <EditText
             android:id="@+id/edt_register_lastname"
             android:layout_width="140dp"
-            android:fontFamily="sans-serif-black"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="40dp"
+            android:fontFamily="sans-serif-black"
             android:hint="@string/lastname"
             android:inputType="textPersonName"
             android:padding="15dp"
@@ -76,6 +75,8 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/Birthday"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.832"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edt_register_password"
             app:layout_constraintVertical_bias="0.0" />
 
@@ -89,19 +90,22 @@
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:fontFamily="sans-serif-black"
+            android:hint="@string/birthday"
             android:padding="15dp"
             android:textSize="20sp"
-            android:hint="@string/birthday"
             app:layout_constraintBottom_toTopOf="@+id/edt_register_alamat"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.983" />
 
         <EditText
             android:id="@+id/edt_register_alamat"
             android:layout_width="300dp"
-            android:fontFamily="sans-serif-black"
             android:layout_height="wrap_content"
             android:layout_marginBottom="92dp"
+            android:fontFamily="sans-serif-black"
             android:hint="@string/alamat"
             android:inputType="textPersonName"
             android:padding="15dp"
@@ -110,13 +114,17 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/btn_register"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
 
         <EditText
             android:id="@+id/edt_register_password"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="96dp"
+            android:fontFamily="sans-serif-black"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="15dp"
@@ -125,20 +133,25 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/Birthday"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
-            android:fontFamily="sans-serif-black"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/btn_register"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_button"
+            android:fontFamily="sans-serif-black"
             android:text="@string/Register"
             android:textColor="@color/white"
             android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="593dp"
-            android:fontFamily="sans-serif-black"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.941" />
     </android.support.constraint.ConstraintLayout>
 </LinearLayout>
