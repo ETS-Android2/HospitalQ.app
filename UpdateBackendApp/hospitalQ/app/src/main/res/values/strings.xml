@@ -38,13 +38,4 @@
     <string name="change_picture">change_picture</string>
     <string name="add_departement">add_departement</string>
     <string name="update">Update</string>
-    <string name="departement">Departement</string>
-    <string name="nama">Nama</string>
-    <string name="delete">Delete</string>
-    <string name="nama">Nama</string>
-    <string name="delete">Delete</string>
-    <string name="departement">Departement</string>
-    <string name="nama">Nama</string>
-    <string name="antrian_sekarang">Antrian Sekarang</string>
-    <string name="total_antrian">Total Antrian</string>
 </resources>
