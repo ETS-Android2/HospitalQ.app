@@ -7,13 +7,14 @@
     android:padding="15dp">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:fontFamily="sans-serif-black"
         android:id="@+id/image_view"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/tvNamaDokter"
@@ -22,34 +23,39 @@
         android:fontFamily="sans-serif-black"
         android:text="@string/nama"
         android:textSize="17sp"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
     <TextView
         android:id="@+id/tvEmailDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="@string/email"
-        android:textSize="17sp"/>
+        android:textSize="17sp"
+        android:layout_gravity="center"/>
     <TextView
         android:id="@+id/tvTanggalLahirDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="@string/tanggal_lahir"
-        android:textSize="17sp"/>
+        android:textSize="17sp"
+        android:layout_gravity="center"/>
     <TextView
         android:id="@+id/tvAlamatDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="@string/alamat"
-        android:textSize="17sp"/>
+        android:textSize="17sp"
+        android:layout_gravity="center"/>
     <TextView
         android:id="@+id/tvDepartementtDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="@string/departement"
-        android:textSize="17sp"/>
+        android:textSize="17sp"
+        android:layout_gravity="center"/>
 
 </LinearLayout>

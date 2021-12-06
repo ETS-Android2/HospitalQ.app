@@ -45,6 +45,15 @@
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_departement.xml" value="0.25" />
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_dokter.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_dokter_admin.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_homescreendokter.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listantrianalluser.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listbooking.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listdepartement.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listdokteradmin.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/detail_doctor.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_antrian.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_booking.xml" value="0.1" />
+        <entry key="..\:/Users/Matthew Brandon Dani/Documents/GitHub/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_dokter_admin.xml" value="0.1" />
       </map>
     </option>
   </component>
