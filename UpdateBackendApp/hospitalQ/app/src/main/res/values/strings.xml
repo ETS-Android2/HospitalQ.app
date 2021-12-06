@@ -10,7 +10,6 @@
     <string name="antrian">Antrian</string>
     <string name="dokter_page">Dokter Page</string>
     <string name="pasien_page">Pasien Page</string>
-    <string name="doktor_list">Doktor List</string>
     <string name="antrian_list">Antrian List</string>
     <string name="booking_list">Booking List</string>
     <string name="Register">Register</string>
@@ -29,4 +28,12 @@
     <string name="don_t_have_an_account_register">Don\'t have an account? Register!</string>
     <string name="already_have_an_account_login">Already have an account? Login!</string>
     <string name="home_page">Home Page</string>
+    <string name="doktor_list">Doktor List</string>
+    <string name="departement_list">Departement List</string>
+    <string name="logout">Logout</string>
+    <string name="admin_page">Admin Page</string>
+    <string name="doctor_page">Doctor Page</string>
+    <string name="list_antrian">List Antrian</string>
+    <string name="update">Update</string>
+    <string name="departement">Departement</string>
 </resources>
