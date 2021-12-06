@@ -20,6 +20,7 @@
                 android:id="@+id/tvNamaDokter"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
                 android:text="@string/nama"
                 android:textSize="17sp"/>
             <TextView
