@@ -67,6 +67,8 @@
         android:cursorVisible="false"
         android:focusable="false"
         android:focusableInTouchMode="false"
+        android:padding="15dp"
+        android:textSize="20sp"
         android:hint="@string/birthday"
         app:layout_constraintBottom_toTopOf="@+id/edt_register_alamat"
         app:layout_constraintEnd_toEndOf="parent"

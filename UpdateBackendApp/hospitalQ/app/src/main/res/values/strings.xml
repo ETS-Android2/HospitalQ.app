@@ -35,8 +35,8 @@
     <string name="doctor_page">Doctor Page</string>
     <string name="list_antrian">List Antrian</string>
     <string name="update">Update</string>
-    <string name="departement">Departement</string>
-    <string name="birthday">birthday</string>
+    <string name="birthday">  Birthday</string>
     <string name="change_picture">change_picture</string>
     <string name="add_departement">add_departement</string>
+    <string name="update">Update</string>
 </resources>

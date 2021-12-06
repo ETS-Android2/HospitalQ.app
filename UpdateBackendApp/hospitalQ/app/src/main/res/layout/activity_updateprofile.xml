@@ -80,10 +80,12 @@
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:clickable="false"
+            android:padding="15dp"
             android:cursorVisible="false"
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:hint="@string/birthday"
+            android:textSize="20sp"
             android:fontFamily="sans-serif-black"/>
 
         <EditText
@@ -107,7 +109,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="70dp"
             android:background="@drawable/rounded_button"
-            android:text="@string/Update"
+            android:text="@string/update"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:fontFamily="sans-serif-black"/>

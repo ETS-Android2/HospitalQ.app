@@ -3,6 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_dokterbooking.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_homescreenadmin.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_homescreendokter.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_homescreenpasien.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listantrianalluser.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listbooking.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listdepartement.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listdokter.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listdokteradmin.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_register.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_registerdepartement.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_registerdokter.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_updatedepartement.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_updateprofile.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/detail_doctor.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_antrian.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_booking.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_departement.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_dokter.xml" value="0.3625" />
+        <entry key="..\:/Github Clone/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_dokter_admin.xml" value="0.3625" />
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_dokterbooking.xml" value="0.25" />
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_homescreenadmin.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/activity_homescreendokter.xml" value="0.22418478260869565" />
@@ -24,24 +45,6 @@
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_departement.xml" value="0.25" />
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_dokter.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/Matthew Brandon Dani/AndroidStudioProjects/hospitalQ/app/src/main/res/layout/list_dokter_admin.xml" value="0.21240942028985507" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_dokterbooking.xml" value="0.14375" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_homescreenadmin.xml" value="0.2713541666666667" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_homescreendokter.xml" value="0.14375" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_homescreenpasien.xml" value="0.14375" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listantrianalluser.xml" value="0.14375" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listbooking.xml" value="0.27447916666666666" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listdepartement.xml" value="0.27447916666666666" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listdokter.xml" value="0.14375" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_listdokteradmin.xml" value="0.2713541666666667" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_register.xml" value="0.2713541666666667" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_registerdepartement.xml" value="0.2713541666666667" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_registerdokter.xml" value="0.2713541666666667" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_updatedepartement.xml" value="0.14375" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/activity_updateprofile.xml" value="0.264" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/detail_doctor.xml" value="0.14375" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_antrian.xml" value="0.2713541666666667" />
-        <entry key="..\:/wut/tugas/SEM 5/mobile/HospitalQ.app/UpdateBackendApp/hospitalQ/app/src/main/res/layout/list_booking.xml" value="0.2713541666666667" />
       </map>
     </option>
   </component>
