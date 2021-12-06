@@ -20,5 +20,6 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         android:background="@drawable/rounded_button"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"/>
 </LinearLayout>

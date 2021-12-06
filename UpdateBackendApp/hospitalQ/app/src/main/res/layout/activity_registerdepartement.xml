@@ -22,7 +22,8 @@
             android:padding="15dp"
             android:singleLine="true"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-black"/>
         <Button
             android:id="@+id/btn_register"
             android:layout_width="130dp"
@@ -32,6 +33,7 @@
             android:textColor="@color/white"
             android:textSize="15sp"
             android:background="@drawable/rounded_button"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"/>
     </LinearLayout>
 </LinearLayout>

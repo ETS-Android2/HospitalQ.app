@@ -15,6 +15,7 @@
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:padding="15dp"
+        android:fontFamily="sans-serif-black"
         android:singleLine="true"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -33,6 +34,7 @@
         android:padding="15dp"
         android:singleLine="true"
         android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/Birthday"
         app:layout_constraintEnd_toStartOf="@+id/edt_register_lastname"
@@ -51,6 +53,7 @@
         android:singleLine="true"
         android:textColor="@color/black"
         android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toTopOf="@+id/Birthday"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_register_password" />
@@ -70,7 +73,9 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:fontFamily="sans-serif-black"
+        />
 
     <EditText
         android:id="@+id/edt_register_alamat"
@@ -85,7 +90,8 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/spinner1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-black"/>
 
     <Spinner
         android:id="@+id/spinner1"
@@ -95,7 +101,8 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-black"/>
 
     <EditText
         android:id="@+id/edt_register_password"
@@ -109,7 +116,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="186dp" />
+        tools:layout_editor_absoluteY="186dp"
+        android:fontFamily="sans-serif-black"/>
 
     <Button
         android:id="@+id/btn_register"
@@ -122,6 +130,7 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-black"/>
 
 </android.support.constraint.ConstraintLayout>
