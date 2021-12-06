@@ -51,12 +51,11 @@ MongoClient.connect(url, {useNewUrlParser: true}, function(err, client){
                 var email = post_data.email;
                 var firstname = post_data.firstname;
                 var lastname = post_data.lastname;
-                var hari = post_data.hari;
-                var bulan = post_data.bulan;
-                var tahun = post_data.tahun;
+                var birthdate = post_data.birthdate;
                 var alamat = post_data.alamat;
                 var departement = post_data.departement;
                 var userrole = post_data.userrole;
+                var ppicture = post_data.ppicture;
 
                 var insertJson = {
                     'email': email,
@@ -64,12 +63,11 @@ MongoClient.connect(url, {useNewUrlParser: true}, function(err, client){
                     'salt': salt,
                     'firstname': firstname,
                     'lastname': lastname,
-                    'hari': hari,
-                    'bulan': bulan,
-                    'tahun': tahun,
+                    'birthdate': birthdate,
                     'alamat': alamat,
                     'departement':departement,
-                    'userrole': userrole
+                    'userrole': userrole,
+                    'ppicture': ppicture
                 };
                 var db = client.db('hospitalQ');
 
@@ -141,15 +139,83 @@ MongoClient.connect(url, {useNewUrlParser: true}, function(err, client){
                                             'email': user.email,
                                             'firstname': user.firstname,
                                             'lastname': user.lastname,
-                                            'hari': user.hari,
-                                            'bulan': user.bulan,
-                                            'tahun': user.tahun,
+                                            'birthdate': user.birthdate,
                                             'alamat': user.alamat,
                                             'departement': user.departement,
-                                            'userrole': user.userrole
+                                            'userrole': user.userrole,
+                                            'ppicture': user.ppicture
                                         };
                                         response.json(dataUser);
                                         console.log('User Found');
+                                    }else{
+                                        response.json('Wrong password');
+                                        console.log('Wrong password');
+                                    }
+                                })
+                        }
+                    })
+            });
+
+            app.post('/getadoctor', (request, response, next)=>{
+                var post_data = request.body;
+                var email = post_data.email;
+                var userPassword = post_data.password;
+                var doctoremail = post_data.doctoremail;
+
+                var db = client.db('hospitalQ');
+
+                db.collection('user')
+                    .find({'email':email}).count(function(err,number){
+                        if(number == 0){
+                            response.json('Email not exists');
+                            console.log('Email not exists');
+                        }else{
+                            db.collection('user')
+                                .findOne({'email':email}, function(err,user){
+                                    var salt = user.salt;
+                                    var hashed_password = checkHashPassword(userPassword,salt).passwordHash;
+                                    var encrypted_password = user.password;
+                                    if(hashed_password == encrypted_password){
+                                        db.collection('user')
+                                        .find({'email':doctoremail}).toArray(function(err,doktor){
+                                            response.json(doktor);
+                                            console.log('Doctor Found');
+                                        })
+                                    }else{
+                                        response.json('Wrong password');
+                                        console.log('Wrong password');
+                                    }
+                                })
+                        }
+                    })
+            });
+
+            app.post('/deleteuser', (request, response, next)=>{
+                var post_data = request.body;
+                var email = post_data.email;
+                var userPassword = post_data.password;
+                var emailtodelete = post_data.emailtodelete;
+
+                var db = client.db('hospitalQ');
+
+                db.collection('user')
+                    .find({'email':email}).count(function(err,number){
+                        if(number == 0){
+                            res.json('Email not exists');
+                            console.log('Email not exists');
+                        }else{
+                            db.collection('user')
+                                .findOne({'email':email}, function(err,user){
+                                    var salt = user.salt;
+                                    var hashed_password = checkHashPassword(userPassword,salt).passwordHash;
+                                    var encrypted_password = user.password;
+                                    if(hashed_password == encrypted_password){
+                                        var myquery = { email: emailtodelete };
+                                        db.collection("user").deleteOne(myquery, function(err, obj) {
+                                          if (err) throw err;
+                                          response.json('User deleted');
+                                          console.log("User deleted");
+                                        })
                                     }else{
                                         response.json('Wrong password');
                                         console.log('Wrong password');
@@ -164,11 +230,10 @@ MongoClient.connect(url, {useNewUrlParser: true}, function(err, client){
                 var email = post_data.email;
                 var firstname = post_data.firstname;
                 var lastname = post_data.lastname;
-                var hari = post_data.hari;
-                var bulan = post_data.bulan;
-                var tahun = post_data.tahun;
+                var birthdate = post_data.birthdate;
                 var alamat = post_data.alamat;
                 var departement = post_data.departement;
+                var ppicture = post_data.ppicture;
 
                 var db = client.db('hospitalQ');
 
@@ -179,11 +244,10 @@ MongoClient.connect(url, {useNewUrlParser: true}, function(err, client){
                             .updateOne({'email':email}, { $set:{
                                 'firstname': firstname,
                                 'lastname': lastname,
-                                'hari': hari,
-                                'bulan': bulan,
-                                'tahun': tahun,
+                                'birthdate': birthdate,
                                 'alamat': alamat,
                                 'departement':departement,
+                                'ppicture': ppicture
                                 }
                             })
                             response.json('Update Success');
@@ -329,6 +393,45 @@ MongoClient.connect(url, {useNewUrlParser: true}, function(err, client){
                     })
             });
 
+            app.post('/deleteantrian', (request, response, next)=>{
+                var post_data = request.body;
+                var user_name = post_data.user_name;
+                var doktor_name = post_data.doktor_name;
+                var doktor_email = post_data.doktor_email;
+
+                var toantrian_user = {
+                    'doktor_email': doktor_email,
+                    'user_name': user_name,
+                    'doktor_name': doktor_name
+                };
+                var db = client.db('hospitalQ');
+
+                db.collection('antrian')
+                    .find({'doktor_name':doktor_name}).count(function(err,number){
+                        if(number == 0){
+                            response.json('Antrian Not Found');
+                            console.log('Antrian Not Found');
+                        }else{
+                            db.collection('antrian')
+                            .findOne({'doktor_name':doktor_name}, function(err,antrian){
+                                db.collection('antrian')
+                                .updateOne({'doktor_name':doktor_name}, { $set:{
+                                    'doktor_email': doktor_email,
+                                    'doktor_name': doktor_name,
+                                    'current_antrian': antrian.current_antrian,
+                                    'antrian': antrian.antrian - 1
+                                }
+                                })
+                            })
+                            db.collection("antrian_user").deleteOne(toantrian_user, function(err, obj) {
+                                if (err) throw err;
+                                response.json('Antrian deleted');
+                                console.log("Antrian deleted");
+                            })
+                        }
+                    })
+            });
+
             app.post('/getcurrentdoctorantrian', (request, response, next)=>{
                 var post_data = request.body;
                 var email = post_data.email;
@@ -421,6 +524,41 @@ MongoClient.connect(url, {useNewUrlParser: true}, function(err, client){
                                     if(hashed_password == encrypted_password){
                                         db.collection('antrian_user')
                                         .find({'user_name':user_name}).toArray(function(err,antrian){
+                                            response.json(antrian);
+                                            console.log('User Found');
+                                        })
+                                    }else{
+                                        response.json('Must Login');
+                                        console.log('Must Login');
+                                    }
+                                })
+                        }
+                    })
+
+            });
+
+            app.post('/getdokterantrian', (request, response, next)=>{
+                var post_data = request.body;
+                var email = post_data.email;
+                var userPassword = post_data.password;
+
+                var db = client.db('hospitalQ');
+
+                db.collection('user')
+                    .find({'email':email}).count(function(err,number){
+                        if(number == 0){
+                            res.json('Account not exists');
+                            console.log('Account not exists');
+                        }else{
+                            db.collection('user')
+                                .findOne({'email':email}, function(err,user){
+                                    var salt = user.salt;
+                                    var hashed_password = checkHashPassword(userPassword,salt).passwordHash;
+                                    var encrypted_password = user.password;
+                                    var user_name = user.email
+                                    if(hashed_password == encrypted_password){
+                                        db.collection('antrian_user')
+                                        .find({'doktor_email':user_name}).toArray(function(err,antrian){
                                             response.json(antrian);
                                             console.log('User Found');
                                         })
@@ -637,6 +775,79 @@ MongoClient.connect(url, {useNewUrlParser: true}, function(err, client){
                                         .find({}).toArray(function(err,departement){
                                             response.json(departement);
                                             console.log('User Found');
+                                        })
+                                    }else{
+                                        response.json('Must Login');
+                                        console.log('Must Login');
+                                    }
+                                })
+                        }
+                    })
+            });
+
+            app.post('/deletedepartement', (request, response, next)=>{
+                var post_data = request.body;
+                var email = post_data.email;
+                var userPassword = post_data.password;
+                var departementtodelete = post_data.departementtodelete;
+
+                var db = client.db('hospitalQ');
+
+                db.collection('user')
+                    .find({'email':email}).count(function(err,number){
+                        if(number == 0){
+                            res.json('Account not exists');
+                            console.log('Account not exists');
+                        }else{
+                            db.collection('user')
+                                .findOne({'email':email}, function(err,user){
+                                    var salt = user.salt;
+                                    var hashed_password = checkHashPassword(userPassword,salt).passwordHash;
+                                    var encrypted_password = user.password;
+                                    if(hashed_password == encrypted_password){
+                                        var myquery = { departement: departementtodelete };
+                                        db.collection("departement").deleteOne(myquery, function(err, obj) {
+                                          if (err) throw err;
+                                          response.json('Departement deleted');
+                                          console.log("Departement deleted");
+                                        })
+                                    }else{
+                                        response.json('Must Login');
+                                        console.log('Must Login');
+                                    }
+                                })
+                        }
+                    })
+            });
+
+            app.post('/updatedepartement', (request, response, next)=>{
+                var post_data = request.body;
+                var email = post_data.email;
+                var userPassword = post_data.password;
+                var departement = post_data.departement;
+                var departementtoupdate = post_data.departementtoupdate;
+
+
+                var db = client.db('hospitalQ');
+
+                db.collection('user')
+                    .find({'email':email}).count(function(err,number){
+                        if(number == 0){
+                            res.json('Account not exists');
+                            console.log('Account not exists');
+                        }else{
+                            db.collection('user')
+                                .findOne({'email':email}, function(err,user){
+                                    var salt = user.salt;
+                                    var hashed_password = checkHashPassword(userPassword,salt).passwordHash;
+                                    var encrypted_password = user.password;
+                                    if(hashed_password == encrypted_password){
+                                        db.collection('departement').updateOne({'departement':departement}, { $set:{
+                                            'departement': departementtoupdate
+                                        }
+                                        }, function(err, obj) {
+                                            response.json('Departement Updated');
+                                            console.log('Departement Updated');
                                         })
                                     }else{
                                         response.json('Must Login');

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNamaDokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="17dp"/>
+    <TextView
+        android:id="@+id/tvEmailDokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="17dp"/>
+    <TextView
+        android:id="@+id/tvTanggalLahirDokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:textSize="17dp"/>
+    <TextView
+        android:id="@+id/tvAlamatDokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="17dp"/>
+    <TextView
+        android:id="@+id/tvDepartementtDokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Departemetn"
+        android:textSize="17dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_view"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
