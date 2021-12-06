@@ -39,4 +39,5 @@
     <string name="add_departement">add_departement</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
+    <string name="tanggal_lahir">Tanggal lahir</string>
 </resources>

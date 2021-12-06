@@ -2,41 +2,49 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background_1"
+    android:padding="15dp">
 
     <TextView
         android:id="@+id/tvNamaDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama"
-        android:textSize="17dp"/>
+        android:fontFamily="sans-serif-black"
+        android:text="@string/nama"
+        android:textSize="17sp"/>
     <TextView
         android:id="@+id/tvEmailDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email"
-        android:textSize="17dp"/>
+        android:fontFamily="sans-serif-black"
+        android:text="@string/email"
+        android:textSize="17sp"/>
     <TextView
         android:id="@+id/tvTanggalLahirDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tanggal Lahir"
-        android:textSize="17dp"/>
+        android:fontFamily="sans-serif-black"
+        android:text="@string/tanggal_lahir"
+        android:textSize="17sp"/>
     <TextView
         android:id="@+id/tvAlamatDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alamat"
-        android:textSize="17dp"/>
+        android:fontFamily="sans-serif-black"
+        android:text="@string/alamat"
+        android:textSize="17sp"/>
     <TextView
         android:id="@+id/tvDepartementtDokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Departemetn"
-        android:textSize="17dp"/>
+        android:fontFamily="sans-serif-black"
+        android:text="@string/departement"
+        android:textSize="17sp"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fontFamily="sans-serif-black"
         android:id="@+id/image_view"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"
