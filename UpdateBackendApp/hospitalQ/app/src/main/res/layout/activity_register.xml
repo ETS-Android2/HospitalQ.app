@@ -12,6 +12,18 @@
         android:layout_height="697dp"
         android:layout_margin="16dp">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/Register"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toTopOf="@+id/edt_register_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
         <EditText
             android:id="@+id/edt_register_email"
             android:layout_width="300dp"
