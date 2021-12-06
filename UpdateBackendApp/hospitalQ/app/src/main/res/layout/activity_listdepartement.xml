@@ -14,11 +14,11 @@
         android:layout_height="454dp" />
     <Button
         android:id="@+id/btn_registerdepartement"
-        android:layout_width="130dp"
+        android:layout_width="270dp"
         android:layout_height="50dp"
-        android:text="Add Departement"
+        android:text="@string/add_departement"
         android:textColor="@color/white"
-        android:textSize="15dp"
-        android:background="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_button"
         android:layout_gravity="center"/>
 </LinearLayout>
