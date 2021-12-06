@@ -15,7 +15,7 @@
         android:layout_margin="16dp"
         android:background="#000249FB"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="15dp">
 
         <TextView
             android:id="@+id/Login_header"
