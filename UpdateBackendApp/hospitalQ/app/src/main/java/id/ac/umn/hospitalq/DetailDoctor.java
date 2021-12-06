@@ -85,11 +85,11 @@ public class DetailDoctor extends AppCompatActivity{
                         departement = mDaftarDocters.getDepartement();
                         ppicture = mDaftarDocters.getPpicture();
 
-                        tvNamaDokter.setText(namalengkap);
-                        tvEmailDokter.setText(emaildoctor1);
-                        tvTanggalLahirDokter.setText(tanggallahir);
-                        tvAlamatDokter.setText(alamat);
-                        tvDepartementtDokter.setText(departement);
+                        tvNamaDokter.setText("Nama : "+namalengkap);
+                        tvEmailDokter.setText("Email : "+emaildoctor1);
+                        tvTanggalLahirDokter.setText("Tanggal lahir : "+tanggallahir);
+                        tvAlamatDokter.setText("Alamat : "+alamat);
+                        tvDepartementtDokter.setText("Departement : "+departement);
                         byte[] bytes = Base64.decode(ppicture, Base64.DEFAULT);
                         Bitmap bitmap = BitmapFactory.decodeByteArray(bytes,0,bytes.length);
                         image_view.setImageBitmap(bitmap);
