@@ -67,9 +67,9 @@ if you want change this app to your needs:
 
 ## App Preview
 <p align="Center">
-  <img width="800" src="Images/App1.jpg" />
-  <img width="800" src="Images/App4.jpg" />
-  <img width="800" src="Images/App8.jpg" />
+  <img width="400" src="Images/App1.jpg" />
+  <img width="400" src="Images/App4.jpg" />
+  <img width="400" src="Images/App8.jpg" />
 </p>
 For full preview, please go Image folder
 
