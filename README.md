@@ -8,7 +8,7 @@ An android application that is used for registration and tracking of queue numbe
 
 ### Poster of this app
 <p align="Center">
-  <img width="800" src="Images/Poster.PNG" />
+  <img width="800" src="Images/Poster.png" />
 </p>
 
 ### Flowchart
