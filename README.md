@@ -8,21 +8,21 @@ An android application that is used for registration and tracking of queue numbe
 
 ### Poster of this app
 <p align="Center">
-  <img width="800" src="Images/Poster.png" />
+  <img width="600" src="Images/Poster.png" />
 </p>
 
 ### Flowchart
 Admin Flowchart
 <p align="Center">
-  <img width="800" src="Images/Admin Flowchart.jpg" />
+  <img width="400" src="Images/Admin Flowchart.jpg" />
 </p>
 Doctor Flowchart
 <p align="Center">
-  <img width="800" src="Images/Doctor Flowchart.jpg" />
+  <img width="400" src="Images/Doctor Flowchart.jpg" />
 </p>
 Patient Flowchart
 <p align="Center">
-  <img width="800" src="Images/Patient Flowchart.jpg" />
+  <img width="400" src="Images/Patient Flowchart.jpg" />
 </p>
 
 #
