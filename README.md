@@ -2,7 +2,7 @@
   HospitalQ App
 </h1>
 <p align="center">
-<i> !!This app created using android studio and java languange</i>
+<i> !!This app created using android studio and java languange</i><br>
 An android application that is used for registration and tracking of queue numbers, so that hospital visitors do not have to queue for too long and reduce crowds at the hospital. With this application, it is hoped that it can reduce the spread of the COVID-19 virus. This application use HTTP API from NodeJS, ExpressJS, and MongoDB stack.
 </p>
 
